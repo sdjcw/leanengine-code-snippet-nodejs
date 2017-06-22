@@ -1,0 +1,32 @@
+{
+  "name": "leanengine-code-snippet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LeanCloud LeanEngine code snippet application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "async": "^2.4.1",
+    "bluebird": "^3.5.0",
+    "body-parser": "1.12.3",
+    "debug": "^2.6.8",
+    "express": "4.12.3",
+    "leanengine": "^2.0.0",
+    "lodash": "^4.17.4",
+    "mailgun": "^0.5.0",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "require-from-string": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "6.11"
+  }
+}
